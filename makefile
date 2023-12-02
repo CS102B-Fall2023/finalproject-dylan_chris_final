@@ -30,5 +30,6 @@ main.o: main.c story.h
 	$(CC) $(CFLAGS) -c main.c 
 
 clean:
-	rm -f *.o *.exe
+	rm -f *.o *.out
+
 
