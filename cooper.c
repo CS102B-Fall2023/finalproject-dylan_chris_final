@@ -13,8 +13,8 @@ int check1(int choice){
 
 
 int choices(){
-	printf("You put on your shoes and walk out of the building.But before you get to the train station an envelope fell down from above and hit you in the head.\n 'Ouch'\n");
-	printf("You open the envelope. Inside there is a piece of paper.\n"); 
+	printf("You put on your shoes and walk out of the building. But before you get to the train station an envelope fell down from above and hit you in the head.\n 'Ouch'\n");
+	printf("You open the envelope. Inside there is a piece of paper. It says:\n"); 
 	
 	printf("You are the last remaining member of the society of Peter Cooper and only you can save us. Stop what you are doing now and walk 360 steps north and then turn to the east and walk another 270 steps where you will find the next clue.\n What do you do?\n 1. Stop what you are doing now and follow the paper. \n 2. Ignore it and throw it into the trash and carry on with your day.\n");
 
