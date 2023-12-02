@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <story.h>
 
 int helloworld(){
         printf("Hello World!\n"); //Hello World

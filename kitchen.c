@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <string.h>
+#include <story.h>
 
-int check(int choice);
+int check(int choice); // function
 int check(int choice){
         if (choice == 1 || choice == 2 || choice == 3 || choice == 4){
             return 1;
@@ -18,7 +19,7 @@ int kitchen(){
 	int choice;
     int scanResult = scanf("%d", &choice);
 
-    while (scanResult != 1 || !check(choice)) {
+    while (scanResult != 1 || !check(choice)) {//while loop
         printf("Invalid input. Input a number:\n");
         while (getchar() != '\n');
         scanResult = scanf("%d", &choice);
