@@ -2,12 +2,13 @@
 #include <story.h>
 
 int main(){
-        printf("hi");
+        while(1){
 	helloworld();
         wear();
         kitchen();
         choices();
 	button();
-	yesread();	
+	yesread();
+	}	
 	return 0;
 }

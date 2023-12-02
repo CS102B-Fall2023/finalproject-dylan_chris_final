@@ -44,10 +44,10 @@ int isPalindrome(char *string)
     } 
  
     if (rev > ptr){ 
-        printf("Word is Palindrome");
+        printf("Word is Palindrome\n");
 	return 1; 
     }else{
-        printf("Word is not a Palindrome");
+        printf("Word is not a Palindrome\n");
 	return 0; 
 	}
 	return 0;
@@ -57,7 +57,7 @@ int isPalindrome(char *string)
 
 int yesread(){
 	palindrome();
-      	printf(" You finally finish and press the button. You return to class to find Professor Turd is about to give out a test. You blitz through the test till the last question. It is 1+1 = ?\n");
+      	printf("You finally finish and press the button. You return to class to find Professor Turd is about to give out a test. You blitz through the test till the last question. It is 1+1 = ?\n");
 	printf("1. 1\n2. 2\n3. 3\n");
         printf("Your solution:\n");
 
@@ -69,12 +69,14 @@ int yesread(){
         	while (getchar() != '\n');
         	scanResult = scanf("%d", &choice);
     	}	
-	
+	while(1){	
 	if (choice == 1 || choice == 3){
 		printf("You chose wrong and Professor Turd stays around for another 100 years till he bankrupts the school. You pass the test but fail The Cooper Union. Womp Womp. You suck.\n");
-//	break;
+	break;
 	}else {
 		printf("You got it right and aced the test! While grading the test Professor Turd realizes and disintegrates into a pile of ash. You are the hero of The Cooper Union. Woohoo! Too bad you got a HSS minor.\n");
+	}
+	break;
 	}
 	return 0;
 }
