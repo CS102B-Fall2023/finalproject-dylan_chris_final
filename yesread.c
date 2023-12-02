@@ -18,12 +18,9 @@ void palindrome(){
 	printf("You decide to test your knowledge by writing out some words from your reading that are palindromes.\n");
 	char word[100];
 	do{
-		printf("What is your word?");
+		printf("What is your word?\n");
 		scanf("%s", word);	
 	}while(!isPalindrome(word));
-	if (isPalindrome(word)){
-		yesread();
-	}
 }
 
 int isPalindrome(char *string) 

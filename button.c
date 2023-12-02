@@ -67,6 +67,7 @@ int video(){
     	}
 	if (choice == 1){
 		printf("You read the books.\n");
+		yesread();
 	}else if(choice == 2){
 		printf("You push the button instead, deciding this is all a joke. You go back to the surface and return to class where Professor Turd gives you a pop quiz. You fail. Miserably. You get the lowest score ever seen to man. You got into the negatives. How is that possible.\n");
 	}
