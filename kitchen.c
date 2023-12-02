@@ -26,16 +26,16 @@ int kitchen(){
     }        
 
         if (choice == 1){
-                printf("You can't eat anything today, you're going to be late");
+                printf("You can't eat anything today, you're going to be late\n");
         }
         else if (choice == 2){
-                printf("Milk and cereal, a solid morning meal");
+                printf("Milk and cereal, a solid morning meal\n");
         }
         else if (choice == 3){
-                printf("Mmm, avocado toast, a tasty and healthy breakfast");
+                printf("Mmm, avocado toast, a tasty and healthy breakfast\n");
         }
         else{
-                printf("A boiled egg, a little bland but better than nothing");
+                printf("A boiled egg, a little bland but better than nothing\n");
         }
 
         return 0;
