@@ -28,7 +28,7 @@ int ignore(){
         scanResult = scanf("%d", &choice);
     }
 	if (choice == 1){//for loop
-	for(; ptr < strlen(op1); ptr++){
+	for(; ptr != '\0'; ptr++){
                 printf("%c", *ptr);
         }
 		return 0;;
