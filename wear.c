@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
+#include <story.h>
 #include <string.h>
 //Using if-else loops
 int isValidInteger(const char *input);
@@ -27,7 +28,7 @@ int wear(n)
 	return 0;
 }
 
-int main(){
+int check(){
 	
 	printf("What do you want to wear today?\n");
         printf("Your choices are: \n 1. You are wearing blue t-shirt and black pants \n 2. You are wearing white shirt and jeans \n 3. You are wearing star wars t-shirt and khakis \n 4. You are wearing oversized hoodie and gray sweatpants \n");
