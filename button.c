@@ -50,6 +50,7 @@ int button(){
 	}
 	else if (choice ==2){
 		printf("You ignore it and walk back to school.");
+		ignore();
 	}	
 	return 0;
 }
