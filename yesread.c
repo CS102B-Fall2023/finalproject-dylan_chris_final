@@ -69,14 +69,14 @@ int yesread(){
         	while (getchar() != '\n');
         	scanResult = scanf("%d", &choice);
     	}	
-	while(1){	
+		
 	if (choice == 1 || choice == 3){
 		printf("You chose wrong and Professor Turd stays around for another 100 years till he bankrupts the school. You pass the test but fail The Cooper Union. Womp Womp. You suck.\n");
-	break;
+	return 0;
 	}else {
 		printf("You got it right and aced the test! While grading the test Professor Turd realizes and disintegrates into a pile of ash. You are the hero of The Cooper Union. Woohoo! Too bad you got a HSS minor.\n");
-	}
-	break;
+	
+		return 0;;
 	}
 	return 0;
 }

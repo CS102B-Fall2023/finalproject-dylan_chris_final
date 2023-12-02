@@ -7,7 +7,7 @@ int main(){
         wear();
         kitchen();
         choices();
-
+	break;
 	}	
 	return 0;
 }

@@ -12,7 +12,7 @@ int check3(int choice){
 }
 
 
-void ignore(){
+int ignore(){
         printf("You throw it into the trash and walk to school. When you get to school you notice a poster on the door of your first class, Professor Turd's class. You peek over the shoulders of the other students and read what is says. \nPop quiz, 50 percent of your grade \nYou feel doomed. What do you do?");
         printf("1. Leave the building and wait out till the next class\n2. Walk in and take the test\n Input a number:");
         //array
@@ -31,11 +31,11 @@ void ignore(){
 	for(; ptr < strlen(op1); ptr++){
                 printf("%c", *ptr);
         }
-  //      break;
+		return 0;;
 	}
 	if (choice == 2){
 		printf("You walk in and see the test. The questions seem alright. You fill it out and finish. You hand it in and leave. As you walk out of the room, you see Professor Turd grin. A week late you get the grade back with a big fat F. You failed. Luckily you have enough points left to pass the class for the semester. Congrats!\n");
-//	break();
+		return 0;
 	}
 }
 
