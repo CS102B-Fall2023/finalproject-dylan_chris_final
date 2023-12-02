@@ -40,5 +40,3 @@ int kitchen(){
 
         return 0;
 }
-
-

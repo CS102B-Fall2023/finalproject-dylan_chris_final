@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <story.h>
 
-int check(int choice); // function
+//int check(int choice); // function
 int check(int choice){
         if (choice == 1 || choice == 2){
             return 1;
@@ -10,6 +10,7 @@ int check(int choice){
             return 0;
         }
 }
+
 
 int choices(){
 	printf("You put on your shoes and walk out of the building.But before you get to the train station an envelope fell down from above and hit you in the head.\n 'Ouch'\n");
@@ -34,8 +35,8 @@ int choices(){
 			break;
 		case 2: 
 			printf("You chose option 2.\n");
+			ignore();
 			break;
-//			ignore();
 	}
 	return 0;
 }

@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <story.h>
 
-int check(int choice);
+
+//int check(int choice);
 int video();
 int check(int choice){
         if (choice == 1 || choice == 2){
@@ -11,7 +12,6 @@ int check(int choice){
             return 0;
         }
 }
-
 int button(){
 
 	printf("You stop and say ‘I don’t need to go to Turd’s class’. You follow the instructions and end up in an alley a block from the school. You see a table with a note on it. You look at it and find another note. You pick it up and read. It says ‘press the big red button’.\n");

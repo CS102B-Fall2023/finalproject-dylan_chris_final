@@ -5,7 +5,7 @@ int main(){
         helloworld();
         wear();
         kitchen();
-        cooper();
+        choices();
 	button();
 
 

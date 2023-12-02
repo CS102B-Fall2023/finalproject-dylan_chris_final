@@ -5,9 +5,19 @@
 #include <string.h>
 //Using if-else loops
 //int isValidInteger(const char *input);
-int wear(n)
+
+int check(int choice){
+        if (choice == 1 || choice == 2 || choice == 3 || choice == 4){
+            return 1;
+        }
+        else{
+            return 0;
+        }
+}
+
+int wear()
 {
-//	int n;
+	int n;
 	printf("What do you want to wear today?\n");
         printf("Your choices are: \n 1. You are wearing blue t-shirt and black pants \n 2. You are wearing white shirt and jeans \n 3. You are wearing star wars t-shirt and khakis \n 4. You are wearing oversized hoodie and gray sweatpants \n");
 	
