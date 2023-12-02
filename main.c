@@ -7,8 +7,7 @@ int main(){
         wear();
         kitchen();
         choices();
-	button();
-	yesread();
+
 	}	
 	return 0;
 }
