@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <string.h>
-
+//Using if-else loops
 int isValidInteger(const char *input);
 int wear(n)
 {
