@@ -1,8 +1,8 @@
 #include <story.h>
 #include <stdio.h>
 #include <string.h>
-int check2(int choice);
-int check2(int choice){
+int check3(int choice);
+int check3(int choice){
         if (choice == 1 || choice == 2){
             return 1;
         }
@@ -22,14 +22,14 @@ void ignore(){
         int choice;
 	int scanResult = scanf("%d", &choice);
 
-    while (scanResult != 1 || !check2(choice)) {
+    while (scanResult != 1 || !check3(choice)) {
         printf("Invalid input. Input a number:\n");
         while (getchar() != '\n');
         scanResult = scanf("%d", &choice);
     }
 	if (choice == 1){//for loop
 	for(; ptr < strlen(op1); ptr++){
-                printf("%s", *ptr);
+                printf("%c", *ptr);
         }
   //      break;
 	}

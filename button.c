@@ -4,7 +4,7 @@
 
 //int check(int choice);
 int video();
-int check(int choice){
+int check0(int choice){
         if (choice == 1 || choice == 2){
             return 1;
         }
@@ -22,12 +22,12 @@ int button(){
     	printf("Are you sure about that?\n");
 	do{
         //	printf("Invalid input. Input a number:\n");
-        	while (getchar() != '\n');
+        	while(getchar() != '\n');
         	scanf("%d", &choice);
-		if (!check(choice)){
+		if (!check0(choice)){
 			printf("Invalid input. Input a number:\n");
 		}
-    	}while(!check(choice));
+    	}while(!check0(choice));
 	if (choice == 1){
 		int choice2;
 		printf("You press the button and the floor opens beneath you. You land on a platform that takes you all the way down. It is a circular room. In it is another button. Do you press it?\n");
@@ -38,10 +38,10 @@ int button(){
 			do{
        				//printf("Invalid input. Input a number:\n");
         			printf("It seems like you are trapped.\n");
-				while (getchar() != '\n');
+				while(getchar() != '\n');
         			scanf("%d", &choice2);
 				
-           		}while(choice2!= 1 || !check(choice));
+           		}while(choice2!= 1 || !check0(choice));
 		}
 		if (choice2 == 1){
 			printf("You have pressed the button.\n");
@@ -60,9 +60,9 @@ int video(){
 	int choice;
 	int scanResult = scanf("%d", &choice);
 
-    	while (scanResult != 1 || !check(choice)) {
+    	while (scanResult != 1 || !check0(choice)) {
         	printf("Invalid input. Input a number:\n");
-        	while (getchar() != '\n');
+        	while(getchar() != '\n');
         	scanResult = scanf("%d", &choice);
     	}
 	if (choice == 1){

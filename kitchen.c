@@ -2,8 +2,8 @@
 #include <string.h>
 #include <story.h>
 
-int check(int choice); // function
-int check(int choice){
+int check4(int choice); // function
+int check4(int choice){
         if (choice == 1 || choice == 2 || choice == 3 || choice == 4){
             return 1;
         }
@@ -19,7 +19,7 @@ int kitchen(){
 	int choice;
     int scanResult = scanf("%d", &choice);
 
-    while (scanResult != 1 || !check(choice)) {//while loop
+    while (scanResult != 1 || !check4(choice)) {//while loop
         printf("Invalid input. Input a number:\n");
         while (getchar() != '\n');
         scanResult = scanf("%d", &choice);
@@ -32,7 +32,7 @@ int kitchen(){
                 printf("Milk and cereal, a solid morning meal");
         }
         else if (choice == 3){
-                printf("Mmm, avocado toast, a tasty and healthy meal");
+                printf("Mmm, avocado toast, a tasty and healthy breakfast");
         }
         else{
                 printf("A boiled egg, a little bland but better than nothing");

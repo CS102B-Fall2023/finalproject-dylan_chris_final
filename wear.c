@@ -6,7 +6,7 @@
 //Using if-else loops
 //int isValidInteger(const char *input);
 
-int check(int choice){
+int check2(int choice){
         if (choice == 1 || choice == 2 || choice == 3 || choice == 4){
             return 1;
         }
@@ -24,7 +24,7 @@ int wear()
 	int choice;
     int scanResult = scanf("%d", &choice);
 
-    while (scanResult != 1 || !check(choice)) {//while loop
+    while (scanResult != 1 || !check2(choice)) {//while loop
         printf("Invalid input. Input a number:\n");
         while (getchar() != '\n');
         scanResult = scanf("%d", &choice);

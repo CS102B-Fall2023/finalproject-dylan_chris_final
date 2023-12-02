@@ -2,7 +2,7 @@
 #include <story.h>
 
 //int check(int choice); // function
-int check(int choice){
+int check1(int choice){
         if (choice == 1 || choice == 2){
             return 1;
         }
@@ -21,7 +21,7 @@ int choices(){
 	  int choice;
     int scanResult = scanf("%d", &choice);
 
-    while (scanResult != 1 || !check(choice)) {//while loop
+    while (scanResult != 1 || !check1(choice)) {//while loop
         printf("Invalid input. Input a number:\n");
         while (getchar() != '\n');
         scanResult = scanf("%d", &choice);

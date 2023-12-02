@@ -2,7 +2,7 @@ CC=gcc
 CFLAGS=-I.
 
 # This will create your final output using .o compiled files
-make: main.o cooper.o hello.o kitchen.o wear.o ignore.o yesread.c button.c 
+make: main.o cooper.o hello.o kitchen.o wear.o ignore.o yesread.o button.o 
 	$(CC) $(CFLAGS) -o main main.o cooper.o hello.o kitchen.o wear.o ignore.o yesread.c button.c
 
 cooper.o: cooper.c story.h
@@ -25,7 +25,6 @@ ignore.o: ignore.c story.h
 
 yesread.o: yesread.o story.h
 	$(CC) $(CFLAGS) -c yesread.c
-
 
 main.o: main.c story.h
 	$(CC) $(CFLAGS) -c main.c 
