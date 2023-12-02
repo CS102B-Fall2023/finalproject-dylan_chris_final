@@ -17,6 +17,9 @@ kitchen.o: kitchen.c story.h
 wear.o: wear.c story.h
 	$(CC) $(CFLAGS) -c wear.c
 
+button.o: button.c story.h
+	$(CC) $(CFLAGS) -c button.c
+
 main.o: main.c story.h
 	$(CC) $(CFLAGS) -c main.c 
 
