@@ -44,10 +44,10 @@ int isPalindrome(char *string)
     } 
  
     if (rev > ptr){ 
-        printf("Word is Palindrome\n");
+        printf("Your word is palindrome! WOOHOO! You are so smart. You made it into Cooper.\n");
 	return 1; 
     }else{
-        printf("Word is not a Palindrome\n");
+        printf("Your word is not a palindrome. How did you get into Cooper?\n");
 	return 0; 
 	}
 	return 0;

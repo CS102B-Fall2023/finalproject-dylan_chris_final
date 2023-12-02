@@ -17,9 +17,9 @@ int button(){
 	printf("You stop and say ‘I don’t need to go to Turd’s class’. You follow the instructions and end up in an alley a block from the school. You see a table with a note on it. You look at it and find another note. You pick it up and read. It says ‘press the big red button’.\n");
 	printf("1. You press the button.\n2. You ignore it and walk back to school.\n");
 	int choice;
-	int scanResult = scanf("%d", &choice);
-	printf("Your choice is %d\n", choice);
-    	printf("Are you sure about that?\n");
+	//int scanResult = scanf("%d", &choice);
+	//printf("Your choice is %d\n", choice);
+    	//printf("Are you sure about that?\n");
 	do{
         //	printf("Invalid input. Input a number:\n");
         	while(getchar() != '\n');
@@ -34,10 +34,10 @@ int button(){
 		printf("1. Yes\n2. No\n");
 		scanf("%d", &choice2);
     		while(choice2 != 1){
-			printf("It seems like you are trapped.\n");	
+//			printf("It seems like you are trapped.\n");	
 			do{
        				//printf("Invalid input. Input a number:\n");
-        			printf("It seems like you are trapped.\n");
+        			printf("It seems like you are trapped. Maybe you should press the button.\n");
 				while(getchar() != '\n');
         			scanf("%d", &choice2);
 				
