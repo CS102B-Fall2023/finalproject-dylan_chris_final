@@ -2,11 +2,11 @@
 #include <story.h>
 
 int main(){
-        helloworld;
-        wear;
-        kitchen;
-        cooper;
-
+        helloworld();
+        wear();
+        kitchen();
+        cooper();
+	button();
 
 
 return 0;

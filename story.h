@@ -1,8 +1,8 @@
 int helloworld(void);
-int wear(void);
+int wear(int n);
 int cooper(void);
-int ignore(void); 
+void ignore(void); 
 int kitchen(void);
-int check(void); 
-int choice(void);
+int check(int choice); 
+int choices(void);
 int button(void);
