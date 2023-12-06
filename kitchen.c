@@ -24,7 +24,7 @@ int kitchen(){
         while (getchar() != '\n');
         scanResult = scanf("%d", &choice);
     }        
-
+//if else statements
         if (choice == 1){
                 printf("You can't eat anything today, you're going to be late\n");
         }
