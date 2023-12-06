@@ -4,7 +4,7 @@
 #include <story.h>
 #include <string.h>
 //Using if-else loops
-//int isValidInteger(const char *input);
+
 
 int check2(int choice){
         if (choice == 1 || choice == 2 || choice == 3 || choice == 4){
@@ -51,20 +51,4 @@ int wear()
 	return 0;
 }
         
-/*
-int isValidInteger(const char *input) {
-    if (input == NULL || *input == '\0') {
-        return 0; // Empty string is not a valid integer
-    }
-
-    // Check if each character is a digit
-    for (int i = 0; input[i] != '\0'; i++) {
-        if (!isdigit(input[i])) {
-            return 0; // Non-digit character found
-        }
-    }
-
-    return 1; // Input is a valid integer
-}
-*/
 

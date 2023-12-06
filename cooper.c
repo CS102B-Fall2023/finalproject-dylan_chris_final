@@ -26,7 +26,7 @@ int choices(){
         while (getchar() != '\n');
         scanResult = scanf("%d", &choice);
     }
-	
+//switch statements	
 	switch(choice)
 	{
 		case 1:

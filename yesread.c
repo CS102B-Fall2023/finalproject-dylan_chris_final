@@ -22,10 +22,10 @@ void palindrome(){
 		scanf("%s", word);	
 	}while(!isPalindrome(word));
 }
-
+//function with points
 int isPalindrome(char *string) 
 { 
-    char *ptr, *rev; 
+    char *ptr, *rev; //pointers
  
     ptr = string; 
  
