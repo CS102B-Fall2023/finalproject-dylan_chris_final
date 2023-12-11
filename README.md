@@ -39,3 +39,6 @@ Please create a clone of this page using the github classrooms link: [https://cl
 
 If you work in a pair, you will get 2 bonus points (out of 100).
 
+Compilation
+make
+./main
